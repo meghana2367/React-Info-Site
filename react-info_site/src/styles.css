@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222a;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+.nav--logo--text, .nav--title {
+    margin: 0;
+}
+
+.nav--icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+.nav--logo--text {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    color: #DEEBF8;
+    font-weight: 600ß;
+}
+
+#facts {
+    color: cyan;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.mainContent {
+    background-color: darkgray;
+    padding: 50px;
+    margin-bottom: auto;
+}
+
+#main {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+li {
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+li::marker {
+    color: cyan;
+}
+
