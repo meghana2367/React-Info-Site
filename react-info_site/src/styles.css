@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: Inter, sans-serif;
+    background-color: #282D35;
 }
 
 nav {
@@ -20,6 +21,7 @@ nav {
 }
 
 .nav--icon {
+    width: auto;
     height: 30px;
     margin-right: 7px;
 }
@@ -36,33 +38,33 @@ nav {
     font-weight: 600ß;
 }
 
-#facts {
-    color: cyan;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-
-.mainContent {
-    background-color: darkgray;
-    padding: 50px;
-    margin-bottom: auto;
-}
-
-#main {
-    display: flex;
+main {
+    padding: 57px 27px;
     color: white;
-    font-weight: bolder;
-    font-size: 40px;
+    background-image: url(images/react-icon-small.png);
+    background-position-x: 170%;
+    background-position-y: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
 }
 
-li {
-    margin-left: 5px;
-    color: white;
-    font-size: 20px;
+.main--title {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
 }
 
-li::marker {
-    color: cyan;
+.main--facts {
+    margin-top: 46px;
+    max-width: 400px;
 }
 
+.main--facts > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker {
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
